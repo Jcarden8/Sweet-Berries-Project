@@ -1,0 +1,138 @@
+main {
+    padding: 30px 80px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  h1 {
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    font-size: 64px;
+    font-weight: 500;
+  }
+  
+  h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+  }
+  
+  h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+  }
+  
+  p {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .main-info-container {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    margin-bottom: 130px;
+  }
+  
+  .description-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .headline-box {
+    width: 80%;
+  }
+  
+  .subtext-box {
+    width: 83%;
+  }
+  
+  .subtext-box p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: gray;
+  }
+  
+  .main-image-box {
+    width: 100%;
+  }
+  
+  .main-image-box img {
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+    margin-top: 40px;
+  }
+  
+  .main-grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 50px 30px;
+    justify-items: center;
+    justify-content: center;
+  }
+  
+  .main-grid-card,
+  .main-grid-first-card {
+    height: 320px;
+    border-radius: 40px;
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    position: relative;
+  }
+  
+  .main-grid-card h3 {
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .yellow {
+    background-color: #FEBD2F;
+  }
+  
+  .main-grid-card p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin: -40px 45px;
+  }
+  
+  .main-grid-first-card h2 {
+    margin: 40px 40px 95px 40px;
+  }
+  
+  .main-grid-card button {
+    width: 140px;
+    height: 48px;
+    border: 1px solid #dcdcdc;
+    border-radius: 50px;
+    background-color: #FFF;
+    margin: 0px 40px 15px 40px;
+    font-size: 18px;
+    box-shadow: inset 0 0 0 0 #FEBD2F;
+    transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  /*Trying out transition boxes see how they turn out in this project. Practice */
+  
+  .main-grid-card button:hover {
+    box-shadow: inset 140px 0 0 0 #FEBD2F;
+    color: #FFF;
+  }
+  
+  .main-grid-card img {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: -12%;
+    right: 5%;
+  }
+
+  /* What is var(--color)? */
