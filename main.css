@@ -135,4 +135,83 @@ main {
     right: 5%;
   }
 
-  /* What is var(--color)? */
+  @media (max-width: 1024px) {
+    main {
+      padding: 20px 40px;
+    }
+  
+    .main-info-container {
+      flex-direction: column;
+      margin-bottom: 80px;
+      align-items: center;
+      justify-items: center;
+      justify-content: center;
+    }
+  
+    .description-container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    h1 {
+      font-size: 48px;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+  
+    .main-grid-first-card h2 {
+      font-size: 32px;
+      margin: 70px 20px 130px 32px;
+    }
+  
+    .main-grid-card h3 {
+      font-size: 20px;
+    }
+  
+    .main-grid-card p {
+      font-size: 16px;
+    }
+  
+    .main-grid-card button {
+      width: 130px;
+      height: 40px;
+    }
+  }
+  
+  @media (max-width: 710px) {
+    main {
+      padding: 0 10px;
+    }
+  
+    .headline-box h1 {
+      font-size: 36px;
+    }
+  
+    .subtext-box p {
+      font-size: 18px;
+      text-align: center;
+    }
+  
+    .main-info-container {
+      height: 60%;
+      flex-direction: column;
+      align-items: center;
+    }
+    .main-grid-container {
+      margin-top: -40px;
+    }
+  
+    .main-grid-first-card {
+      height: 140px;
+    }
+  
+    .main-grid-first-card h2 {
+      font-size: 24px;
+      margin: 24px 70px 24px 24px;
+    }
+  
+    .main-grid-card {
+      height: 270px;
+    }
+  }

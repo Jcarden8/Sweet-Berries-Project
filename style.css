@@ -14,3 +14,13 @@ body {
   font-family: 'Roboto', sans-serif;
   background: #F5F3EF;
 }
+
+@media (min-width: 1440px) {
+  body,
+  header,
+  section,
+  footer{
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+}
